@@ -10,6 +10,7 @@
     <module>design-patterns-factory</module>
       <module>design-patterns-builder</module>
       <module>design-patterns-singleton</module>
+      <module>test-demo-01</module>
   </modules>
 
   <name>design-patterns-demo</name>
