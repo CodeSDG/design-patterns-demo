@@ -13,7 +13,6 @@ public interface PaymentService {
 
     /**
      * 支付方法
-     * @param payCode 支付码
      */
     void pay();
 }
