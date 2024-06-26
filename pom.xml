@@ -1,48 +1,49 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.codesdg.design</groupId>
-  <artifactId>design-patterns-demo</artifactId>
-  <version>${revision}</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>design-patterns-dependencies</module>
-    <module>design-patterns-factory</module>
-      <module>design-patterns-builder</module>
-      <module>design-patterns-singleton</module>
-      <module>test-demo-01</module>
-  </modules>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.codesdg.design</groupId>
+    <artifactId>design-patterns-demo</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>design-patterns-dependencies</module>
+        <module>design-patterns-factory</module>
+        <module>design-patterns-builder</module>
+        <module>design-patterns-singleton</module>
+        <module>test-demo-01</module>
+        <module>design-patterns-strategy</module>
+    </modules>
 
-  <name>design-patterns-demo</name>
-  <description>设计模式demo</description>
-  <properties>
-    <revision>1.0.0-snapshot</revision>
-  </properties>
+    <name>design-patterns-demo</name>
+    <description>设计模式demo</description>
+    <properties>
+        <revision>1.0.0-snapshot</revision>
+    </properties>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>com.codesdg.design</groupId>
-        <artifactId>design-patterns-dependencies</artifactId>
-        <version>${revision}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.codesdg.design</groupId>
+                <artifactId>design-patterns-dependencies</artifactId>
+                <version>${revision}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
-  <!-- 使用 huawei / aliyun 的 Maven 源，提升下载速度 -->
-  <repositories>
-    <repository>
-      <id>huaweicloud</id>
-      <name>huawei</name>
-      <url>https://mirrors.huaweicloud.com/repository/maven/</url>
-    </repository>
-    <repository>
-      <id>aliyunmaven</id>
-      <name>aliyun</name>
-      <url>https://maven.aliyun.com/repository/public</url>
-    </repository>
-  </repositories>
+    <!-- 使用 huawei / aliyun 的 Maven 源，提升下载速度 -->
+    <repositories>
+        <repository>
+            <id>huaweicloud</id>
+            <name>huawei</name>
+            <url>https://mirrors.huaweicloud.com/repository/maven/</url>
+        </repository>
+        <repository>
+            <id>aliyunmaven</id>
+            <name>aliyun</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
 
 </project>
