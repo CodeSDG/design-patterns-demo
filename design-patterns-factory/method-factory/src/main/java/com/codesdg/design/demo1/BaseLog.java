@@ -7,7 +7,7 @@ package com.codesdg.design.demo1;
  * @description
  * @Copyright
  */
-abstract class BaseLog {
+public abstract class BaseLog {
 
     public abstract void writeLog();
 }

@@ -8,7 +8,7 @@ package com.codesdg.design.demo1;
  * @description
  * @Copyright
  */
-abstract class LogFactory {
+public abstract class LogFactory {
 
     public abstract BaseLog createLog();
 
