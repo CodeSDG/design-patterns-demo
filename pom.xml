@@ -13,6 +13,7 @@
         <module>test-demo-01</module>
         <module>design-patterns-strategy</module>
         <module>design-patterns-chain</module>
+        <module>design-patterns-template-method</module>
     </modules>
 
     <name>design-patterns-demo</name>
