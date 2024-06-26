@@ -1,5 +1,8 @@
 package com.codesdg.design;
 
+import com.codesdg.design.demo1.DatabaseLogFactory;
+import com.codesdg.design.demo1.FileLogFactory;
+import com.codesdg.design.demo1.LogFactory;
 import junit.framework.TestCase;
 
 /**

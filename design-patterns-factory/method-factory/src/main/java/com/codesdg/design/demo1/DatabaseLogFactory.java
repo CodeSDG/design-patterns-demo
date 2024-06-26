@@ -1,4 +1,4 @@
-package com.codesdg.design;
+package com.codesdg.design.demo1;
 
 /**
  * @author shandeguo
