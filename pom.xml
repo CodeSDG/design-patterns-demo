@@ -16,6 +16,7 @@
         <module>design-patterns-template-method</module>
         <module>design-patterns-proxy</module>
         <module>design-patterns-observer</module>
+        <module>design-patterns-adapter</module>
     </modules>
 
     <name>design-patterns-demo</name>
